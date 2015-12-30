@@ -240,56 +240,57 @@ Our channels
 @teleseedch [English]
 ]],
     help_text = [[
-Commands list :
+لیست کد ها
 !kick [username|id]
-You can also do it by reply
+پاک کردن فردی با امکان ریپلای
 !ban [ username|id]
-You can also do it by reply
+مسدود کردن فردی با امکان ریپلای
 !unban [id]
-You can also do it by reply
+خارج کردن فردی از مسدودی با امکان ریپلای
 !who
-Members list
+اعضای یک گروه
 !modlist
-Moderators list
+بیست ادمین ها
 !promote [username]
-Promote someone
+ادمین کردن فردی
 !demote [username]
-Demote someone
+خارج کردن فردی از ادمینی
 !kickme
-Will kick user
+منو پا کن
 !about
-Group description
+درباره ی گروه
 !setphoto
-Set and locks group photo
+انتخاب عکس گروه
 !setname [name]
-Set group name
+انتخاب اسم گروه
 !rules
-Group rules
+قوانین گروه
 !id
-return group id or user id
+ایدی گروه یا ایدی فردی
 !help
+کمک
 !lock [member|name|bots]
-Locks [member|name|bots] 
+قفل کردن [member|name|bots] 
 !unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
+خارج کردن از قفل [member|name|photo|bots]
 !set rules <text>
-Set <text> as rules
+افزودن قوانین گروه
 !set about <text>
-Set <text> as about
+افزودن درباره ی گروه
 !settings
-Returns group settings
+تنظیمات گروه
 !newlink
-create/revoke your group link
+لینک جدید گروه
 !link
-returns group link
+لینک گروه
 !owner
-returns group owner id
+مدیر کل
 !setowner [id]
-Will set id as owner
+انتخاب مدیر کل
 !setflood [value]
 Set [value] as flood sensitivity
 !stats
-Simple message statistics
+تعداد پیغام های فرستاده شده
 !save [value] <text>
 Save <text> as [value]
 !get [value]
@@ -297,86 +298,12 @@ Returns text of [value]
 !clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
 !res [username]
-returns user id
+اطلاعات فردی
 "!res @username"
 !log
 will return group logs
 !banlist
-will return group ban list
-**U can use both "/" and "!" 
-*Only owner and mods can add bots in group
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-*Only owner can use res,setowner,promote,demote and log commands
-]]
-
-help1_text = [[
-Commands list :
-!kick [username|id]
-You can also do it by reply
-!ban [ username|id]
-You can also do it by reply
-!unban [id]
-You can also do it by reply
-!who
-Members list
-!modlist
-Moderators list
-!promote [username]
-Promote someone
-!demote [username]
-Demote someone
-!kickme
-Will kick user
-!about
-Group description
-!setphoto
-Set and locks group photo
-!setname [name]
-Set group name
-!rules
-Group rules
-!id
-return group id or user id
-!help
-!lock [member|name|bots]
-Locks [member|name|bots] 
-!unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
-!set rules <text>
-Set <text> as rules
-!set about <text>
-Set <text> as about
-!settings
-Returns group settings
-!newlink
-create/revoke your group link
-!link
-returns group link
-!owner
-returns group owner id
-!setowner [id]
-Will set id as owner
-!setflood [value]
-Set [value] as flood sensitivity
-!stats
-Simple message statistics
-!save [value] <text>
-Save <text> as [value]
-!get [value]
-Returns text of [value]
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-!res [username]
-returns user id
-"!res @username"
-!log
-will return group logs
-!banlist
-will return group ban list
-**U can use both "/" and "!" 
-*Only owner and mods can add bots in group
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-*Only owner can use res,setowner,promote,demote and log commands :)
+افراد مسدود شده
 ]]
   }
   serialize_to_file(config, './data/config.lua')
