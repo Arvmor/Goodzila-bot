@@ -224,21 +224,6 @@ function create_config( )
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
-An advance Administration bot based on yagop/telegram-bot 
-https://github.com/SEEDTEAM/TeleSeed
-Admins
-@G0odzilam [Founder]
-@G0odzilam [Developer]
-@G0odzilam [Manager]
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-Our channels
-@teleseedch [English]
-]],
     help_text = [[
 لیست کد ها
 !kick [username|id]
